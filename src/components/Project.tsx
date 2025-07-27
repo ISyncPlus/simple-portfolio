@@ -6,7 +6,7 @@ type props = {
 
 
 export default function Project({ children, className }: props) {
-    const base: string = ' backdrop-blur-sm rounded-lg bg-[#393E4680] p-6'
+    const base: string = ' backdrop-blur-sm rounded-lg bg-[#393E4680] py-6 md:p-6 w-[90%]'
   return (
     <div className={`${base} ${className}`}>
         { children }

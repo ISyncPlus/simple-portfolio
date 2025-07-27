@@ -12,17 +12,17 @@ export default function Footer() {
       <hr  className="text-[#00ADB5] flex justify-self-center w-[50%] mb-20"/>
 
       <section className="flex justify-center items-center gap-15 font-light mb-10">
-        <div className="flex gap-3 font-light text-xl">
-          <AiOutlineHome size={25}/> <p>Home</p>
-        </div>
+        <a href="#home" className="flex gap-3 font-light text-xl">
+          <AiOutlineHome size={25}/> <p className="hidden md:inline">Home</p>
+        </a>
 
-        <div className="flex items-center gap-3 text-xl">
-          <RiContactsLine size={25} stroke="#222831"/> <p>About Me</p>
-        </div>
+        <a href="#about" className="flex items-center gap-3 text-xl">
+          <RiContactsLine size={25} stroke="#222831"/> <p className="hidden md:inline">About Me</p>
+        </a>
 
-        <div className="flex items-center gap-3 text-xl">
-          <IoCallOutline size={25}/> <p>Contact</p>
-        </div>
+        <a href="#contact" className="flex items-center gap-3 text-xl">
+          <IoCallOutline size={25}/> <p className="hidden md:inline">Contact</p>
+        </a>
       </section>
 
       <section className="flex justify-center items-center gap-10">

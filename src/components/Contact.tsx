@@ -7,9 +7,9 @@ import { FaTelegramPlane } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <section id="contact" className="flex items-center px-8 py-30">
+    <section id="contact" className="flex flex-col md:flex-row items-center px-8 py-30">
 
-      <figure className="flex-1">
+      <figure className="md:flex-1 w-full">
         <h1 className="text-4xl font-bold mb-3">Got a Project in <span className="text-[#00ADB5]">Mind?</span> </h1>
 
         <div className="flex items-center">
@@ -20,10 +20,10 @@ export default function Contact() {
         </div>
       </figure>
 
-      <form className='flex-1'>
+      <form className='md:flex-1 w-full'>
         <img src={keyboard} alt="keyboard" className="w-[25%] mb-15 ml-10" />
 
-        <section className="flex items-center gap-3 mb-3">
+        <section className="flex flex-col md:flex-row md:items-center gap-3 mb-3">
 
           <div>
             <label htmlFor="name" className="block mb-2">Your Name</label>
