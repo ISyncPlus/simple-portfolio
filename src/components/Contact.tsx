@@ -20,7 +20,7 @@ export default function Contact() {
         </div>
       </figure>
 
-      <form className='md:flex-1 w-screen px-8'>
+      <form className='md:flex-1 w-screen pl-8 pr-25'>
         <img src={keyboard} alt="keyboard" className="w-[25%] mb-15 ml-10" />
 
         <section className="flex flex-col md:flex-row md:items-center gap-3 mb-3">

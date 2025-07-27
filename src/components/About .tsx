@@ -27,8 +27,8 @@ export default function About() {
 
       <figure className="flex-1 relative flex md:justify-end">
         <img src={AboutDoodle} alt="doodle" className="w-[90%]"/>
-        <img src={AboutFigure} alt="figure" className="absolute md:top-25 md:right-0 top-30 left-15 w-[40%] sm:w-[50%] lg:w-[70%]" />
-        <RiZzzLine className='text-white absolute right-50 top-25'  size={40}/>
+        <img src={AboutFigure} alt="figure" className="absolute md:top-25 md:right-0 top-30 left-15 w-[50%] sm:w-[50%] lg:w-[70%]" />
+        <RiZzzLine className='text-white absolute right-45 top-25 md:right-50 md:top-25'  size={40}/>
       </figure>
       
     </section>
