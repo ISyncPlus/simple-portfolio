@@ -40,7 +40,7 @@ export default function Contact() {
         
 
         <label htmlFor="message" className='block mb-3'>Your Message</label>
-        <textarea name="message" placeholder="Message" className='bg-[#393E4680] rounded-2xl p-3 block mb-5 font-bold' rows={5} cols={30}></textarea>
+        <textarea name="message" placeholder="Message" className='bg-[#393E4680] rounded-2xl p-3 block mb-5 font-bold w-full h-40' ></textarea>
 
         <Button variant="primary" type="submit" className="">Send Message <FaTelegramPlane className="inline"/></Button>
 
