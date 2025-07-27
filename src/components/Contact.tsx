@@ -7,7 +7,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <section className="flex items-center px-8 my-15">
+    <section id="contact" className="flex items-center px-8 py-30">
 
       <figure className="flex-1">
         <h1 className="text-4xl font-bold mb-3">Got a Project in <span className="text-[#00ADB5]">Mind?</span> </h1>

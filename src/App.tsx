@@ -7,13 +7,13 @@ import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <div className="scroll-smooth bg-[#222831] text-white min-h-screen max-w-7xl mx-auto font-poppins">
+    <html className="scroll-smooth bg-[#222831] text-white min-h-screen max-w-7xl mx-auto font-poppins">
       <Navbar/>
       <Hero/>
       <About/>
       <Works/>
       <Contact/>
       <Footer/>
-    </div>
+    </html>
   );
 }

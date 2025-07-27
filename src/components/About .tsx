@@ -6,8 +6,8 @@ import Point from '../doodles/about point doodle.png'
 import { RiZzzLine } from "react-icons/ri";
 export default function About() {
   return (
-    <section className="flex justify-between items-center 
-    px-10 pt-10 mb-25">
+    <section id="about" className="flex justify-between items-center 
+    px-10 py-30">
       <article className="flex flex-col flex-1 relative">
 
            <img src={Music} alt="music" className="absolute -top-20 w-[10%]" />

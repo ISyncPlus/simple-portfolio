@@ -1,11 +1,11 @@
 import Button from "./Button";
-import Project from "./project";
+import Project from "../components/Project";
 import P_1 from '../img/project 1.png'
 import P_2 from '../img/project 2.png'
 import P_3 from '../img/project 3.png'
 export default function Works() {
   return (
-    <section className="px-8 py-30 bg-projects">
+    <section className="px-8 pt-30 bg-projects">
       <h1 className="text-3xl font-bold mb-5">
         My Recent <span className="text-[#00ADB5]">Works</span> 
       </h1>

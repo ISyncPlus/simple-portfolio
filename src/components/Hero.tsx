@@ -6,7 +6,7 @@ import { MdOutlineFileDownload } from "react-icons/md";
 import Button from './Button';
 const Hero: React.FC = () => {
   return (
-    <main className="sm:px-5 lg:px-10 flex flex-col-reverse md:flex-row justify-center items-center mb-25">
+    <main id="home" className="sm:px-5 lg:px-10 flex flex-col-reverse md:flex-row justify-center items-center pt-25">
       <section className="flex justify-center font-poppins sm:w-[60%]">
 
         <div>
