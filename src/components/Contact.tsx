@@ -7,20 +7,20 @@ import { FaTelegramPlane } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <section id="contact" className="flex flex-col md:flex-row items-center px-8 py-30">
+    <section id="contact" className="flex flex-col lg:flex-row items-center px-8 py-30">
 
       <figure className="md:flex-1 w-full">
-        <h1 className="text-4xl font-bold mb-3">Got a Project in <span className="text-[#00ADB5]">Mind?</span> </h1>
+        <h1 className="text-center text-4xl font-bold mb-3">Got a Project in <span className="text-[#00ADB5]">Mind?</span> </h1>
 
-        <div className="flex items-center">
+        <div className="flex items-center md:ml-20">
 
           <img src={doodle_1} alt="pointer" className="w-[30%] mr-5"/>
-          <img src={figure} alt="figure" className="w-[40%]"/>
+          <img src={figure} alt="figure" className="w-[40%] md:w-[30%]"/>
 
         </div>
       </figure>
 
-      <form className='md:flex-1 w-screen pl-8 pr-25'>
+      <form className='md:flex-1 w-screen pl-8 pr-25 md:pr-10'>
         <img src={keyboard} alt="keyboard" className="w-[25%] mb-15 ml-10" />
 
         <section className="flex flex-col md:flex-row md:items-center gap-3 mb-3">
@@ -40,9 +40,9 @@ export default function Contact() {
         
 
         <label htmlFor="message" className='block mb-3'>Your Message</label>
-        <textarea name="message" placeholder="Message" className='bg-[#393E4680] rounded-2xl p-3 block mb-5 font-bold w-full h-40' ></textarea>
+        <textarea name="message" placeholder="Message" className='bg-[#393E4680] rounded-2xl p-3 mb-5 font-bold w-full h-40 ' ></textarea>
 
-        <Button variant="primary" type="submit" className="">Send Message <FaTelegramPlane className="inline"/></Button>
+        <Button variant="primary" type="submit" className="flex justify-center w-full">Send Message <FaTelegramPlane className="inline"/></Button>
 
         <img src={mail} alt="mail" className="transform translate-x-90 mt-5 w-[10%]" />
 
