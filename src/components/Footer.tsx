@@ -33,7 +33,7 @@ export default function Footer() {
       </section>
       
 
-      <p className="flex justify-self-end px-8 text-[#EEEEEEBF] pt-20 pb-10">Terms of Service - Privacy Policy</p>
+      <p className="flex justify-center md:justify-self-end px-8 text-[#EEEEEEBF] pt-20 pb-10">Terms of Service - Privacy Policy</p>
       
     </footer>
   );
